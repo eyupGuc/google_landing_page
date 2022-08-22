@@ -43,4 +43,8 @@ header ul li a {
   width: 96px;
   height: 36px;
   border-radius: 4px;
+  font-weight: 600;
+}
+.header__right--button:hover {
+  box-shadow: rgb(211, 211, 211) 2px 3px 5px;
 }
