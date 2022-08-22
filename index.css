@@ -24,11 +24,11 @@ body {
   float: right;
 }
 
-header ul li {
+ul li {
   display: inline-block;
 }
 
-header ul li a {
+ul li a {
   color: black;
   padding: 0.5rem;
   opacity: 0.8;
@@ -52,7 +52,7 @@ header ul li a {
   cursor: pointer;
 }
 
-header ul li a:hover {
+ul li a:hover {
   text-decoration: underline;
 }
 
@@ -93,8 +93,6 @@ header ul li a:hover {
   vertical-align: middle;
 }
 
-.main__buttons {
-}
 .main__buttons--left,
 .main__buttons--right {
   width: 146px;
@@ -118,3 +116,27 @@ header ul li a:hover {
 }
 
 /*! FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.footer__country {
+  font-size: 14px;
+  padding-left: 27px;
+  border-bottom: #5f6368;
+}
+
+.footer__bottom--right {
+  float: right;
+}
+
+.footer__bottom--left {
+  float: left;
+}
+
+.footer__bottom ul {
+  padding: 20px;
+}
