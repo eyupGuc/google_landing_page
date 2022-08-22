@@ -30,6 +30,7 @@ header ul li {
 header ul li a {
   color: black;
   padding: 0.5rem;
+  opacity: 0.8;
 }
 
 .header__right--appicon {
@@ -48,4 +49,8 @@ header ul li a {
 .header__right--button:hover {
   box-shadow: rgb(211, 211, 211) 3px 3px 5px;
   cursor: pointer;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
 }
