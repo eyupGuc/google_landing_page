@@ -29,4 +29,18 @@ header ul li {
 
 header ul li a {
   color: black;
+  padding: 0.5rem;
+}
+
+.header__right--appicon {
+  vertical-align: middle;
+}
+
+.header__right--button {
+  vertical-align: middle;
+  background-color: #4285f4;
+  border: none;
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
 }
