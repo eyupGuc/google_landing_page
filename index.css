@@ -46,5 +46,6 @@ header ul li a {
   font-weight: 600;
 }
 .header__right--button:hover {
-  box-shadow: rgb(211, 211, 211) 2px 3px 5px;
+  box-shadow: rgb(211, 211, 211) 3px 3px 5px;
+  cursor: pointer;
 }
